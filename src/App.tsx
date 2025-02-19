@@ -8,7 +8,6 @@ import lightLogoUrl from './assets/wd_full_light.png';
 function App() {
   const [darkMode, setDarkMode] = React.useState<boolean>(false);
 
-
   function getPreferredColorScheme(): boolean {
     if (window.matchMedia) {
       return window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -33,8 +32,11 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <img src={darkMode ? darkLogoUrl : lightLogoUrl} width={200} />
+    <div className='App'>
+      <div className='content'>
+        <img src={darkMode ? darkLogoUrl : lightLogoUrl} width={200} alt='wamafi digital' />
+        <p>contact: <a href='mailto:wamafi@wamafi.com'>wamafi@wamafi.com</a></p>
+      </div>
     </div>
   )
 }
