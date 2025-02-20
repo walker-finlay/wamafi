@@ -36,7 +36,7 @@ function App() {
       <div className='content'>
         <img src={darkMode ? darkLogoUrl : lightLogoUrl} width={200} alt='wamafi digital' />
         {/* <p>games &middot; data &middot; art</p> */}
-        <p>contact: <a href='mailto:wamafi@wamafi.com'>wamafi@wamafi.com</a></p>
+        {/* <p>contact: <a href='mailto:wamafi@wamafi.com'>wamafi@wamafi.com</a></p> */}
       </div>
     </div>
   )
