@@ -12,7 +12,7 @@ function App() {
           title={'wamafi digital'}
         />
         {/* <p>games &middot; data &middot; art</p> */}
-        {/* <p>contact: <a href='mailto:wamafi@wamafi.com'>wamafi@wamafi.com</a></p> */}
+        <p>contact: <a href='mailto:walker@wamafi.com'>walker@wamafi.com</a></p>
       </div>
     </div>
   )
